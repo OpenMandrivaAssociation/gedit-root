@@ -8,6 +8,7 @@ Source2:	gedit-root.pam
 License:	GPLv2+
 Group:		Editors
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 Requires:	gedit
 Requires:	usermode-consoleonly
 
