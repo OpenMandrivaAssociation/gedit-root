@@ -31,13 +31,17 @@ ln -s %{_bindir}/consolehelper %{buildroot}%{_bindir}/gedit-root
 %clean
 rm -rf %{buildroot}
 
+%if %mdkversion < 200900
 %post
 %{update_desktop_database}
 %{update_menus}
+%endif
 
+%if %mdkversion < 200900
 %postun
 %{clean_menus}
 %{clean_desktop_database}
+%endif
 
 %files
 %defattr(-, root, root)
