@@ -1,0 +1,4 @@
+USER=root
+PROGRAM=/usr/bin/gedit
+SESSION=true
+FALLBACK=false

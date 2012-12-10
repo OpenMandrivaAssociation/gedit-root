@@ -50,3 +50,38 @@ rm -rf %{buildroot}
 %{_sysconfdir}/security/console.apps/%{name}
 %{_sysconfdir}/pam.d/%{name}
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0-7mdv2011.0
++ Revision: 618446
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.0-6mdv2010.0
++ Revision: 429189
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.0-5mdv2009.0
++ Revision: 245876
+- rebuild
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.0-3mdv2008.1
++ Revision: 140735
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Wed Sep 12 2007 Adam Williamson <awilliamson@mandriva.org> 1.0-3mdv2008.0
++ Revision: 84756
+- add /etc/pam.d file (#30957)
+- remove X-Mandriva category from .desktop file
+- spec clean
+
+* Fri Apr 27 2007 Adam Williamson <awilliamson@mandriva.org> 1.0-2mdv2008.0
++ Revision: 18465
+- Import gedit-root
+
