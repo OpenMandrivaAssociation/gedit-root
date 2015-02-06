@@ -1,7 +1,7 @@
 Name:		gedit-root
 Summary:	Lets you launch gedit as root from the menu
 Version:	1.0
-Release:	%mkrel 7
+Release:	8
 Source0:	gedit-root.console
 Source1:	gedit-root.desktop
 Source2:	gedit-root.pam
